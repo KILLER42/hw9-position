@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: top;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;	
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+	body {
+		background-image: url(../image/background.jpg);
+		width: 100%;
+		height: 100%;
+		background-attachment: fixed;		
+	}
+
+.card1 {
+	margin:20px 0;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+	position: relative;
+	border: 2px solid gray;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.hidden {
+display: none;
+position: absolute;
+color: beige;
+top: 38%;
+left: 0;
+text-align: justify;
+margin: 0 20px;
+border: 2px solid beige;
+border-radius: 10px;
+background: rgba(100, 100, 100, 0.5);
+}
+
+.card1:hover .hidden {
+	display: block;
+}
+
+.hidden2 {
+display: none;
+position: absolute;
+color: beige;
+top: 30%;
+left: 0;
+text-align: justify;
+margin: 0 20px;
+border: 2px solid beige;
+border-radius: 10px;
+background: rgba(100, 100, 100, 0.5);
+}
+
+.card1:hover .hidden2 {
+	display: block;
+}
+
+.side-bar {
+	position: fixed;
+	width: 124px;
+	height: 225px;
+	left: 20px;
+	top: 45%;
+	font-family:Georgia, 'Times New Roman', Times, serif ;
+	font-size: 25px;	
+	border-radius: 5px;
+	text-align: center;	
+}
+
+.side-bar li {
+	border: 1px solid black;
+border-radius: 5px;
+width: 120px;
+background: rgba(1, 1, 1, 0.5);
+}
+
+.menu a {	
+text-decoration: none;
+color: beige;
+}
+
+.menu li a {
+	line-height: 35px;	
+}
+
